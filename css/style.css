@@ -46,7 +46,7 @@ body{
     /* height: 95px; */
     background-color: rgb(180, 235, 180, 0.5);
     display: flex;    
-    height:395px;
+    height:100%;
     /* margin-top: 25px; */
     padding: 25px 16px;
 }
@@ -110,7 +110,7 @@ body{
 }
 
 .home-article img{
-    width:300px;
+    max-width:300px;
 }
 
 .home-article-content{
