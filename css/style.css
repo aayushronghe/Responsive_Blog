@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(234, 243, 181);
+}
+
+
+.title{
+    font-size: 50px;
+    font-style:oblique;
+    font-family: "Modern Antiqua";
+}
+
+.title a{
+    text-decoration: none;
+    color: rgb(243, 182, 71);
+    font-weight:500;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.title a:hover{
+    cursor: pointer;
+}
+
+.iBlog{
+    font-family: "Modern Antiqua";
+    padding-bottom: 10px;
+}
+
+.navigation{
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font1);
+    padding:0 16px;
+}
+
+.content{
+    /* height: 95px; */
+    background-color: rgb(180, 235, 180, 0.5);
+    display: flex;    
+    height:395px;
+    /* margin-top: 25px; */
+    padding: 25px 16px;
+}
+
+
+.nav-left{
+    display: flex;
+}
+
+.content-left{
+    font-family: var(--font1);
+    /* width:50%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:50px;
+}
+
+
+.content-right img{
+    height:355px;
+    border: 2px solid maroon;
+    border-radius: 50%;
+}
+
+.content-right{
+    /* width:50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-left ul li{
+    list-style: none;
+    margin:0 10px;
+    font-family: var(--font2);
+    font-size: 21px;
+}
+
+
+.nav-left ul li a:hover{
+    color:#F757A7;
+    font-weight: bolder;
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin:0 50px;
+    font-size: 18px;
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.home-article{
+    display: flex;
+    margin:50px;
+}
+
+.home-article img{
+    width:300px;
+}
+
+.home-article-content{
+    align-self: center;
+    padding:0 20px;
+}
+
+.home-articles{
+    /* height:455px; */
+    background-color: rgb(235,180,235,0.3);
+    padding:15px;
+    position: relative;
+}
+
+.footer{
+    height: 50px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.featured-articles{
+    padding:10px 50px;
+    font-size: 30px;
+    font-family: "Modern Antiqua";
+}
+
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition:all 0.1s ease-in-out;
+}
+
+.home-article-content a:hover{
+    color: #8C8818;
+}
